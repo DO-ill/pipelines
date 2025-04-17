@@ -78,7 +78,7 @@
         "type": "data",
         "dataFilter": {
             "dataType": "file",
-            "dataFormat": ["TXT, CSV, FASTQ, JSON"]
+            "dataFormat": ["TXT, CSV, FASTQ, JSON, ADAT"]
         },
         "helpText": "some TXT file selection help",
         "maxValues": 10,
