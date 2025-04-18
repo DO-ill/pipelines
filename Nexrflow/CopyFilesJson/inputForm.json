@@ -9,7 +9,7 @@
       "placeHolderText": "placeholder",
       "helpText": "some textboxhelp",
       "minValues": 0,
-      "maxValues": 1000
+      "maxValues": 10000
     },
     {
       "id": "text",
