@@ -27,7 +27,7 @@ process writetooutput {
     mkdir -p out
     cp -r ${inputFiles} ./out/
     cp -a ./startfolder/. ./out/
-    echo "some random text" | tee -a ./out/*.txt
+    echo "some random text_NESTED" | tee -a ./out/*.txt
     """
 }
 
