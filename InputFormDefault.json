@@ -1,0 +1,11 @@
+{
+  "fields": [
+    {
+      "id": "textboxid",
+      "type": "textbox",
+      "placeHolderText": "i'm a textbox...",
+      "updateRenderOnChange": true,
+      "minLength": 3
+    }
+  ]
+}
