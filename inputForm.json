@@ -1,0 +1,90 @@
+{
+  "fields": [
+      {
+      "id": "textbox",
+      "label": "Text boxx",
+      "type": "textbox",
+      "minLength": 2,
+      "maxLength": 45,
+      "placeHolderText": "placeholder",
+      "helpText": "some textboxhelp",
+      "minValues": 0,
+      "maxValues": 10000
+    },
+    {
+      "id": "text",
+      "label": "TEXT",
+      "type": "text",
+      "helpText": "some textboxhelp"
+      
+    },
+    {
+      "id": "maxagesum",
+      "label": "Max age sum",
+      "type": "integer",
+      "min": 2,
+      "max": 22222,
+      "updateRenderOnChange": true,
+      "helpText": "The maximum the sum of ages in the group may be"
+    },
+
+    {
+      "id": "input",
+      "label": "input",
+      "type": "data",
+      "updateRenderOnChange": true,
+      "dataFilter": {
+        "dataType": "file"
+      },
+      "helpText": "some TXT file selection help",
+      "maxValues": 100000,
+      "minValues": 0,
+      "value": "fil.937fb4c3e9974d09890e08dc68c5690c"
+    },
+     {
+      "id": "group",
+      "type": "fieldgroup",
+      "label": "Group",
+      "minValues": 0,
+      "maxValues": 10,
+      "fields": [
+         
+        {
+          "id": "age",
+          "label": "Age",
+          "type": "integer",
+          "min": 0,
+          "max": 200,
+          "placeHolderText": "The age",
+          "updateRenderOnChange": true,
+          "helpText": "age in years"
+        },
+          {
+      "id": "textbox_InGroup",
+      "label": "textbox_InGroup",
+      "type": "textbox",
+      "minLength": 2,
+      "maxLength": 45,
+      "placeHolderText": "placeholder",
+      "helpText": "some textboxhelp",
+      "minValues": 0,
+      "maxValues": 3
+    },
+    
+     
+        {
+        "id": "MultiFiles",
+        "label": "Multi_files",
+        "type": "data",
+        "dataFilter": {
+            "dataType": "file",
+            "dataFormat": ["TXT, CSV, FASTQ, JSON, ADAT"]
+        },
+        "helpText": "some TXT file selection help",
+        "maxValues": 10,
+        "minValues": 1
+        }
+      ]
+    }
+  ]
+}
