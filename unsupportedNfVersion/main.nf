@@ -1,4 +1,4 @@
-nextflow.enable.dsl = 2
+
 
 process HELLO_WORLD {
   tag "hello"
