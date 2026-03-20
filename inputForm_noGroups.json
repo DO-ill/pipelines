@@ -38,8 +38,7 @@
       },
       "helpText": "some TXT file selection help",
       "maxValues": 100000,
-      "minValues": 0,
-      "value": "fil.937fb4c3e9974d09890e08dc68c5690c"
+      "minValues": 0
     }
   ]
 }
